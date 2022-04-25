@@ -1,0 +1,29 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="s4d_on_message" id="y$Dc!;GLV$3tW?Xw/sZ9" x="384" y="339">
+    <statement name="STATEMENTS">
+      <block type="s4d_wait_seconds" id="8y_M(9I$9CHsT!B5k1[5">
+        <value name="TIME">
+          <shadow type="math_number" id="dG,Gpv;=Y)5krwafTxBZ">
+            <field name="NUM">5</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="s4d_reply" id="Jzjh1/IS/9S}QG^d8V!!">
+            <value name="CONTENT">
+              <shadow type="text" id="ITgHkTla[Y]!{Y3ayRHn">
+                <field name="TEXT">hru</field>
+              </shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_login" id=";JPjF;1YhLZrH5.~6%oY" x="1032" y="343">
+    <value name="TOKEN">
+      <block type="text" id="7*~phY?-C9BN^sR%Grh9">
+        <field name="TEXT">912825466136703017</field>
+      </block>
+    </value>
+  </block>
+</xml>
